@@ -11,6 +11,7 @@ A collection of fun and simple Python games to play and learn Python programming
 3. **Guess the Number** – Guess the number randomly chosen by the computer.
 4. **Rock Paper Scissors** – Play against the computer.
 5. **2048** – Clone of the popular 2048 puzzle game using Pygame.
+6. **2048** – Clone of the popular 2048 puzzle game using Pygame.
 
 ---
 
@@ -51,6 +52,7 @@ python tic_tac_toe.py
 python guess_number.py
 python rock_paper_scissors.py
 python 2048_pygame.py
+python treasure.py
 Controls:
 
 Snake & 2048: Use arrow keys to move.
@@ -75,5 +77,6 @@ mini-games/
 ├── guess_number.py
 ├── rock_paper_scissors.py
 ├── 2048_pygame.py
+├── treasure.py
 ├── requirements.txt
 └── README.md
