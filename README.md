@@ -29,7 +29,7 @@ A collection of fun and simple Python games to play and learn Python programming
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mini-games.git
+git clone https://github.com/biloltj/mini-games.git
 cd mini-games
 Install dependencies:
 
