@@ -1,82 +1,75 @@
-# Mini Python Games 🎮
+# 🎮 Mini Python Games
 
-A collection of fun and simple Python games to play and learn Python programming.  
+A collection of fun, beginner-friendly Python games designed to help you **learn Python through play**.  
+Each game is simple to run, easy to understand, and great for practicing logic, loops, and user interaction.
 
 ---
 
-## 🎮 Games Included
+## 🕹 Games Included
 
-1. **Snake Game** – Classic snake game with borders, lives, and score.
-2. **Tic Tac Toe** – Play against a friend or a bot in the terminal with colorful UI.
-3. **Guess the Number** – Guess the number randomly chosen by the computer.
-4. **Rock Paper Scissors** – Play against the computer.
-5. **2048** – Clone of the popular 2048 puzzle game using Pygame.
-6. **2048** – Clone of the popular 2048 puzzle game using Pygame.
+1. **Snake Game**  
+   Classic snake game with borders, lives, and score tracking.
+
+2. **Tic Tac Toe**  
+   Play against a friend or a computer bot in the terminal with a colorful UI.
+
+3. **Guess the Number**  
+   Try to guess the number randomly chosen by the computer.
+
+4. **Rock Paper Scissors**  
+   Play Rock, Paper, Scissors against the computer.
+
+5. **2048 (Pygame)**  
+   A clone of the popular 2048 puzzle game built using Pygame.
+
+6. **Treasure Game**  
+   A simple text-based adventure game in the terminal.
 
 ---
 
 ## ⚡ Features
 
-- Scores and lives for Snake and 2048.
-- Restart or quit options in games.
-- Colorful terminal UI for Tic Tac Toe.
-- Easy-to-run Python scripts.
+- Score and lives system for Snake and 2048  
+- Restart and quit options in games  
+- Colorful terminal UI (Tic Tac Toe)  
+- Beginner-friendly Python code  
+- Easy to run and modify  
 
 ---
 
 ## 🛠 Installation
-
-1. **Clone the repository:**
+### 1️⃣ Clone the repository
   ```bash
   git clone https://github.com/biloltj/mini-games.git
   cd mini-games
-
-Install dependencies:
-
-
-Copy code
-pip install -r requirements.txt
-requirements.txt includes:
-
-nginx
-Copy code
+  ```
+###2️⃣Install dependencies
+  ```bash
+  pip install -r requirements.txt
+  ```
+###📦 requirements.txt
+```bash
 pygame
 colorama
-▶️ How to Play
+```
+###▶️ How to Play
 Run any game using Python:
-
-
-Copy code
+```bash
 python snake_game.py
 python tic_tac_toe.py
 python guess_number.py
 python rock_paper_scissors.py
 python 2048_pygame.py
 python treasure.py
-Controls:
+```
+###🎮 Controls
+- Snake & 2048: Use arrow keys to move
+- Tic Tac Toe: Follow on-screen instructions (2 players or vs bot)
+- Guess the Number & Rock Paper Scissors: Follow terminal prompts
 
-Snake & 2048: Use arrow keys to move.
+###💡 Tips
 
-Tic Tac Toe: Follow on-screen instructions. Choose between 2 players or play against a bot.
-
-Guess the Number & Rock Paper Scissors: Follow terminal prompts.
-
-💡 Usage Tips
-Press restart or quit when prompted to control game sessions.
-
-Check terminal for instructions in each game.
-
-Enjoy and modify the code to learn Python game development.
-
-📂 Folder Structure
-Copy code
-mini-games/
-│
-├── snake_game.py
-├── tic_tac_toe.py
-├── guess_number.py
-├── rock_paper_scissors.py
-├── 2048_pygame.py
-├── treasure.py
-├── requirements.txt
-└── README.md
+- Restart or quit games when prompted
+- Read terminal messages for instructions
+- Modify the code to experiment and learn Python game development
+  
