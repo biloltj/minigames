@@ -27,13 +27,13 @@ A collection of fun and simple Python games to play and learn Python programming
 ## 🛠 Installation
 
 1. **Clone the repository:**
+  ```bash
+  git clone https://github.com/biloltj/mini-games.git
+  cd mini-games
 
-```bash
-git clone https://github.com/biloltj/mini-games.git
-cd mini-games
 Install dependencies:
 
-bash
+
 Copy code
 pip install -r requirements.txt
 requirements.txt includes:
@@ -45,7 +45,7 @@ colorama
 ▶️ How to Play
 Run any game using Python:
 
-bash
+
 Copy code
 python snake_game.py
 python tic_tac_toe.py
