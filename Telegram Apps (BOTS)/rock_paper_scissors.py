@@ -1,6 +1,16 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
+from dotenv import load_dotenv
 import random
+import logging
+import os
+
+BOT_TOKEN = os.getenv("TELEGRAM")
+load_dotenv()
+
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 GAMES = {}  # {chat_id: {"player1": id, "player2": id, "move1": None, "move2": None}}
 
@@ -78,7 +88,7 @@ async def join(update: Update, context):
     else:
         await update.message.reply_text("❌ Game is full.")
 
-app = ApplicationBuilder().token("YOUR_BOT_TOKEN").build()
+app = ApplicationBuilder().token("BOT_TOKEN").build()
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("join", join))
 app.add_handler(CallbackQueryHandler(buttons))

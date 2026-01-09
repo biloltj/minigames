@@ -80,7 +80,7 @@ mini-games/
 └── README.md
 ```
 ### ⭐ Contribution
-Feel free to fork this repository, improve the games, or add new ones.
-Pull requests are welcome!
-Happy coding & gaming! 🚀🎮
+- Feel free to fork this repository, improve the games, or add new ones.
+- Pull requests are welcome!
+- Happy coding & gaming! 🚀🎮
   
